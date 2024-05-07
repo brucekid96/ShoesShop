@@ -3,16 +3,71 @@
     background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
     display: flex;
 }
+
+.hero-hand-icon{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 /* Hero.css */
-.hand-hand-icon img {
-    width: 50px; /* Adjust the width as needed */
+.hero-hand-icon img {
+    width: 105px; /* Adjust the width as needed */
     height: auto; /* Maintain the aspect ratio */
   }
   
 /* Hero.css */
 .hero-right img {
-    width: 100%; /* Make the image responsive */
-    height: auto;
-    margin-top: 20px; /* Add margin to create space between the image and the header */
+    width: 500; /* Make the image responsive */
+    height: 300;
+
+  }
+
+  .hero-right{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 180PX;
+    line-height: 1.1; 
+  }
+  
+  .hero-left h2{
+    color: #090909;
+    font-size: 26px;
+    font-weight: 600;
+  }
+
+  .hero-left p{
+    color: #171717;
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+  .hero-latest-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 310px;
+    height: 70px;
+    border-radius: 75px;
+    margin-op: 30px;
+    background: #ff4141;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .hero-latest-btn img{
+    width: 100px;
+    height: 70px;
   }
   
