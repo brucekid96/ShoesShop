@@ -1,6 +1,12 @@
 .item{
-    width: 350px;
+    width: 200px;
+   
 }
+.item img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain; /* Cela garantit que l'image est redimensionnée pour tenir dans le cadre sans être déformée. */
+  }
 .item p{
     margin: 6px 0px;
 }
@@ -11,7 +17,7 @@
 
 .item-price-new{
     color: #374151;
-    font-size: 18x;
+    font-size: 18px;
     font-weight: 600;
 }
 .item-price-old{
