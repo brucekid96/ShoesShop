@@ -1,0 +1,22 @@
+.banner-image {
+    width: 100%; /* Ajustez la largeur selon vos besoins */
+  height: 400px; /* Laissez la hauteur s'ajuster automatiquement */
+  object-fit: cover; /* This will cover the area without stretching the image */
+  }
+
+  .shopcategory-sort {
+    font-size: 0.8rem; /* Réduisez la taille de la police si nécessaire */
+    width: auto; /* Ajustez la largeur au contenu */
+    display: flex; /* Utilisez flexbox pour centrer les éléments */
+    align-items: center; /* Centre verticalement */
+  }
+  
+  .shopcategory-sort img {
+    width: 15px; /* Ajustez la largeur de l'icône déroulante */
+    height: 15px; /* Ajustez la hauteur de l'icône déroulante */
+  }
+  .shopcategory-sort span {
+    margin-right: 5px; /* Ajoutez un espace entre le texte et l'icône */
+  }
+
+  
