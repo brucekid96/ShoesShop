@@ -1,22 +1,50 @@
-.banner-image {
-    width: 100%; /* Ajustez la largeur selon vos besoins */
-  height: 400px; /* Laissez la hauteur s'ajuster automatiquement */
-  object-fit: cover; /* This will cover the area without stretching the image */
+.shopcategory-banner {
+  display: block;
+  margin: 30px auto;
+    width: 82%; 
+  height: 400px; 
+  object-fit: cover; 
+  }
+  .shopcategory-indexSort{
+    display: flex;
+    margin: 0px 170px;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .shopcategory-sort {
-    font-size: 0.8rem; /* Réduisez la taille de la police si nécessaire */
-    width: auto; /* Ajustez la largeur au contenu */
-    display: flex; /* Utilisez flexbox pour centrer les éléments */
-    align-items: center; /* Centre verticalement */
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 1px solid #888;
   }
   
   .shopcategory-sort img {
     width: 15px; /* Ajustez la largeur de l'icône déroulante */
     height: 15px; /* Ajustez la hauteur de l'icône déroulante */
   }
-  .shopcategory-sort span {
-    margin-right: 5px; /* Ajoutez un espace entre le texte et l'icône */
+  .shopcategory-indexSort p span{
+    font-weight: 600;
   }
+  .shopcategory-products{
+    margin: 20px 170px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    row-gap: 80px;
+  }
+  .shopcategory-loadmore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+    width: 233px;
+    height: 69px;
+    border-radius: 75px;
+    background: #ededed;
+    color: #787878;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+
 
   
